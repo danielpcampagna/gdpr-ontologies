@@ -1,7 +1,8 @@
-# GDPR Ontologies
+## Ontologies
 
 - [bartolini2015b](/docs/bartolini2015b.html) [lode](/docs/Bartolini 2015.html)
 
+---
 
 ## Acknowledgement
 
