@@ -1,0 +1,2614 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY skos "http://www.w3.org/TR/skos-reference#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/TR/skos-reference#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <Ontology rdfs:label="Bartolini 2015" rdf:about="http://www.uni.lu/dataprotection">
+        <dc:rights>This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).</dc:rights>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <AnnotationProperty rdf:about="&dc;rights">
+        <rdfs:label xml:lang="en">Rights</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:comment xml:lang="en">Information about rights held in and over the resource.</rdfs:comment>
+        <terms:description xml:lang="en">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#rights-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <AnnotationProperty rdf:about="&terms;description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <AnnotationProperty rdf:about="&terms;hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <AnnotationProperty rdf:about="&terms;issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <AnnotationProperty rdf:about="&terms;modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <AnnotationProperty rdf:about="&terms;publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <AnnotationProperty rdf:about="&terms;title"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <rdf:Description rdf:about="&rdfs;comment">
+        <rdfs:label xml:lang="en">rdfs:comment</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <rdf:Description rdf:about="&rdfs;isDefinedBy">
+        <rdfs:label xml:lang="en">rdfs:isDefinedBy</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="&rdfs;label">
+        <rdfs:label xml:lang="en">rdfs:label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <rdf:Description rdf:about="&rdfs;seeAlso">
+        <rdfs:label xml:lang="en">rdfs:seeAlso</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+    <AnnotationProperty rdf:about="&skos;broadMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broaderTransitive -->
+
+    <AnnotationProperty rdf:about="&skos;broaderTransitive"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <AnnotationProperty rdf:about="&skos;closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <AnnotationProperty rdf:about="&skos;exactMatch">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;comment"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <AnnotationProperty rdf:about="&skos;note"/>
+    
+
+
+    <!-- http://www.w3.org/TR/skos-reference#broadMatch -->
+
+    <AnnotationProperty rdf:about="&skos;broadMatch"/>
+    
+
+
+    <!-- http://www.w3.org/TR/skos-reference#closeMatch -->
+
+    <AnnotationProperty rdf:about="&skos;closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/TR/skos-reference#note -->
+
+    <AnnotationProperty rdf:about="&skos;note"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdf:Description rdf:about="&rdf;PlainLiteral">
+        <rdfs:label xml:lang="en">rdf:PlainLiteral</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="&xsd;date"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdf:Description rdf:about="&xsd;string">
+        <rdfs:label xml:lang="en">xsd:string</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#supervises -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#supervises">
+        <rdfs:label xml:lang="en">supervises</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#SupervisoryAuthority"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#performProcessing -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#performProcessing">
+        <rdfs:label xml:lang="en">performProcessing</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Processor"/>
+        <inverseOf rdf:resource="http://www.uni.lu/dataprotection#OWLObjectProperty_5d457280_4325_44df_8083_ad7b53c0dfca"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#exerciseRight -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#exerciseRight">
+        <rdfs:label xml:lang="en">exerciseRight</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Action"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#implements -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#implements">
+        <rdfs:label xml:lang="en">implements</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#requiredByPublicInterest -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#requiredByPublicInterest">
+        <rdfs:label xml:lang="en">requiredByPublicInterest</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#PublicInterest"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#mustProvide -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#mustProvide">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">mustProvide</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#TransparentInformation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#appoints -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#appoints">
+        <rdfs:label xml:lang="en">appoints</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataProtectionOfficer"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#processingAppliesTo -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#processingAppliesTo">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">processingAppliesTo</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#hasPersonalData -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#hasPersonalData">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasPersonalData</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+        <inverseOf rdf:resource="http://www.uni.lu/dataprotection#pertainsTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#requiredByVitalInterest -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#requiredByVitalInterest">
+        <rdfs:label xml:lang="en">requiredByVitalInterest</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#VitalInterest"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#objectTo -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#objectTo">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">objectTo</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#accessData -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#accessData">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">accessData</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#RightOfAccess"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#issueFine -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#issueFine">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">issueFine</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#SupervisoryAuthority"/>
+        <rdfs:range>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#DataTransfer"/>
+                            <Class>
+                                <complementOf rdf:resource="http://www.uni.lu/dataprotection#LawfulTransfer"/>
+                            </Class>
+                        </intersectionOf>
+                    </Class>
+                    <Class>
+                        <complementOf>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Compliance"/>
+                            </Restriction>
+                        </complementOf>
+                    </Class>
+                </unionOf>
+            </Class>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#isObjected -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#isObjected">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">isObjected</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Objection"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#hasParties -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#hasParties">
+        <rdfs:label xml:lang="en">hasParties</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Contract"/>
+        <rdfs:range>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#Controller"/>
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#DataSubject"/>
+                </unionOf>
+            </Class>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#transferContent -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#transferContent">
+        <rdfs:label xml:lang="en">transferContent</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataTransfer"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#requiredByObligation -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#requiredByObligation">
+        <rdfs:label xml:lang="en">requiredByObligation</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#LegalObligation"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#processingHasRequirement -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#processingHasRequirement">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">processingHasRequirement</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#ProcessingRule"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#OWLObjectProperty_5d457280_4325_44df_8083_ad7b53c0dfca -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#OWLObjectProperty_5d457280_4325_44df_8083_ad7b53c0dfca">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">processingPerformedBy</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Processor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#hasObligation -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#hasObligation">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasObligation</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#LegalObligation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#requiredByLegitimateInterest -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#requiredByLegitimateInterest">
+        <rdfs:label xml:lang="en">requiredByLegitimateInterest</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#LegitimateInterest"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#usesProcessingMode -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#usesProcessingMode">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">usesProcessingMode</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#ProcessingMode"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#hasParent -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#hasParent">
+        <rdfs:label xml:lang="en">hasParent</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#ChildDataSubject"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Parent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#specialConsentAppliesTo -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#specialConsentAppliesTo">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">specialConsentAppliesTo</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Consent"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.uni.lu/dataprotection#consentAppliesTo"/>
+        <rdfs:range>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#DataProcessing"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingAppliesTo"/>
+                        <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#cooperateWith -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#cooperateWith">
+        <rdfs:label xml:lang="en">cooperateWith</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Processor"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#SupervisoryAuthority"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#dataWasBreached -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#dataWasBreached">
+        <rdfs:label xml:lang="en">dataWasBreached</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataBreach"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#hasRecipient -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#hasRecipient">
+        <rdfs:label xml:lang="en">hasRecipient</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Recipient"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataTransfer"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#hasVitalInterest -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#hasVitalInterest">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasVitalInterest</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#VitalInterest"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#hasGrantedConsent -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#hasGrantedConsent">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasGrantedConsent</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Consent"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+        <inverseOf rdf:resource="http://www.uni.lu/dataprotection#consentGrantedBy"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#hasLegitimateInterest -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#hasLegitimateInterest">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasLegitimateInterest</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#LegitimateInterest"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#processOnBehalfOf -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#processOnBehalfOf">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">processOnBehalfOf</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Processor"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#consentAppliesTo -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#consentAppliesTo">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">consentAppliesTo</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Consent"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.uni.lu/dataprotection#requirementAppliesTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#processingGrantsRight -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#processingGrantsRight">
+        <rdfs:label xml:lang="en">processingGrantsRight</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#notifyBreach -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#notifyBreach">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">notifyBreach</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataBreach"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#requiredForContract -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#requiredForContract">
+        <rdfs:label xml:lang="en">requiredForContract</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Contract"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#requirementAppliesTo -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#requirementAppliesTo">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">requirementAppliesTo</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#ProcessingRule"/>
+        <inverseOf rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#consentGrantedBy -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#consentGrantedBy">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">consentGrantedBy</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#Consent"/>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#breachNotifiedTo -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#breachNotifiedTo">
+        <rdfs:label xml:lang="en">breachNotifiedTo</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataBreach"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#pertainsTo -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#pertainsTo">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">pertainsTo</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#transferHasRequirement -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#transferHasRequirement">
+        <rdfs:label xml:lang="en">transferHasRequirement</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#TransferRule"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataTransfer"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#performAccess -->
+
+    <ObjectProperty rdf:about="http://www.uni.lu/dataprotection#performAccess">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">performAccess</rdfs:label>
+        <rdfs:range rdf:resource="http://www.uni.lu/dataprotection#Access"/>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="&owl;topObjectProperty">
+        <rdfs:label xml:lang="en">owl:topObjectProperty</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#dataName -->
+
+    <DatatypeProperty rdf:about="http://www.uni.lu/dataprotection#dataName">
+        <rdfs:label xml:lang="en">dataName</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#dataSubjectId -->
+
+    <DatatypeProperty rdf:about="http://www.uni.lu/dataprotection#dataSubjectId">
+        <rdfs:label xml:lang="en">dataSubjectId</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="&owl;topDataProperty">
+        <rdfs:label xml:lang="en">owl:topDataProperty</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Action -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Action">
+        <rdfs:label xml:lang="en">Action</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ContractualProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ContractualProcessing">
+        <rdfs:label xml:lang="en">ContractualProcessing</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#requiredForContract"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Contract"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulProcessing"/>
+        <rdfs:comment xml:lang="en">Article 6.1(b)
+
+Processing that is necessary for the performance of a contract to which the data
+subject is party or in order to take steps at the request of the data subject prior
+to entering into a contract.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Profiling -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Profiling">
+        <rdfs:label xml:lang="en">Profiling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#AutomatedProcessing"/>
+        <rdfs:comment xml:lang="en">Article 20.1
+
+Automated processing intended to evaluate certain personal aspects relating to this natural person or to analyse or predict in particular the natural person&apos;s performance at work, economic situation, location, health, personal preferences, reliability or behaviour.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#TransferRule -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#TransferRule">
+        <rdfs:label xml:lang="en">TransferRule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Rule"/>
+        <rdfs:comment xml:lang="en">Rule that applies only to the transfer of personal data.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#DataProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#DataProcessing">
+        <rdfs:label xml:lang="en">DataProcessing</rdfs:label>
+        <disjointWith rdf:resource="http://www.uni.lu/dataprotection#Person"/>
+        <disjointWith rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+        <rdfs:comment xml:lang="en">Article 4(3)
+
+Any operation or set of operations which is performed upon personal data or sets of personal data, whether or not by automated means, such as collection, recording, organization, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, erasure or destruction.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#VitalInterest -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#VitalInterest">
+        <rdfs:label xml:lang="en">VitalInterest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LegalJustification"/>
+        <rdfs:comment xml:lang="en">Interest concerning the life or health of a subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#NonEURecipient -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#NonEURecipient">
+        <rdfs:label xml:lang="en">NonEURecipient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Recipient"/>
+        <disjointWith rdf:resource="http://www.uni.lu/dataprotection#EURecipient"/>
+        <rdfs:comment xml:lang="en">A recipient not located within the European Union and not subject to the Regulation.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Access -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Access">
+        <rdfs:label xml:lang="en">Access</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#exerciseRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightOfAccess"/>
+            </Restriction>
+        </equivalentClass>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#accessData"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+            </Restriction>
+        </equivalentClass>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#implements"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Transparency"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Action"/>
+        <rdfs:comment xml:lang="en">Article 15.2
+
+The request to obtain from the controller communication of the personal data undergoing processing. Where the data subject makes the request in electronic form, the information shall be provided in electronic form, unless otherwise requested by the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Trust -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Trust">
+        <rdfs:label xml:lang="en">Trust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Fairness"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.4.2
+
+Controllers should document, to data subjects and to the general public, that they will process data in a lawful and transparent manner. Processing operations must not be performed in secret and should not have unforeseeable negative effects. Controllers should ensure that customers, clients or citizens are informed about the use of their data. Further, controllers, so far as possible, must act in a way which promptly complies with the wishes of the data subject, especially where his or her consent forms the legal basis for the data processing.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Erasure -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Erasure">
+        <rdfs:label xml:lang="en">Erasure</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#exerciseRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightToErasure"/>
+            </Restriction>
+        </equivalentClass>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#implements"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Retention"/>
+            </Restriction>
+        </equivalentClass>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#implements"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#DataQuality"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Action"/>
+        <rdfs:comment xml:lang="en">The request to obtain from the controller the erasure of personal data relating to them and the abstention from further dissemination of such data.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#VitalProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#VitalProcessing">
+        <rdfs:label xml:lang="en">VitalProcessing</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#requiredByVitalInterest"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#VitalInterest"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulProcessing"/>
+        <rdfs:comment xml:lang="en">Article 6.1(d)
+
+Processing that is necessary in order to protect the vital interests of the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Contract -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Contract">
+        <rdfs:label xml:lang="en">Contract</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.uni.lu/dataprotection#hasParties"/>
+                        <onClass rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+                        <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.uni.lu/dataprotection#hasParties"/>
+                        <onClass rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+                        <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LegalJustification"/>
+        <rdfs:comment xml:lang="en">Binding instrument to establish a legal relationship between two or more parties.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Relevancy -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Relevancy">
+        <rdfs:label xml:lang="en">Relevancy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataMinimization"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataQuality"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.3.1
+
+Only such data shall be processed as are &quot;adequate, relevant and not excessive in relation to the purpose for which they are collected and/or further processed&quot;. The categories of data chosen for processing must be necessary in order to achieve the declared overall aim of the processing operations, and a controller should strictly limit collection of data to such information as is directly relevant for the specific purpose pursued by the processing.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ProcessingScope -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ProcessingScope">
+        <rdfs:label xml:lang="en">ProcessingScope</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Purpose"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Justification"/>
+        <rdfs:comment xml:lang="en">The actual reason for which the processing is performed. The processing is lawful if one of the lawfulness conditions apply. The lawfulness conditions have a twofold meaning:
+- they represent the legal grounds that make the processing lawful. This is an application of the lawfulness principle;
+- they define the boundaries within which the processing is allowed. This is an application of the principle of purpose limitation.
+
+The combination of these two facets makes up the processing scope.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Representative -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Representative">
+        <rdfs:label xml:lang="en">Representative</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Person"/>
+        <rdfs:comment xml:lang="en">Article 4(14)
+
+Any natural or legal person established in the Union who, explicitly designated by the controller, acts and may be addressed by any supervisory authority and other bodies in the Union instead of the controller, with regard to the obligations of the controller under this Regulation.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#OrganisationalMeasures -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#OrganisationalMeasures">
+        <rdfs:label xml:lang="en">OrganisationalMeasures</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Measures"/>
+        <rdfs:comment xml:lang="en">Security measures that concern the organization of the controller or processor, including the division of roles and limited access rights.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ObligatedProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ObligatedProcessing">
+        <rdfs:label xml:lang="en">ObligatedProcessing</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#requiredByObligation"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#LegalObligation"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulProcessing"/>
+        <rdfs:comment xml:lang="en">Article 6.1(c)
+
+Processing that is necessary for compliance with a legal obligation to which the controller is subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RightToObject -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#RightToObject">
+        <rdfs:label xml:lang="en">RightToObject</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Trust"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+        <rdfs:comment xml:lang="en">Article 19.1
+
+The data subject shall have the right to object, on grounds relating to their particular situation, at any time to the processing of personal data which is based on points (d), (e) and (f) of Article 6(1), unless the controller demonstrates compelling legitimate grounds for the processing which override the interests or fundamental rights and freedoms of the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RequiredProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#RequiredProcessing">
+        <rdfs:label xml:lang="en">RequiredProcessing</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#ContractualProcessing"/>
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#VitalProcessing"/>
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#ObligatedProcessing"/>
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#PublicInterestProcessing"/>
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#LegitimateInterestProcessing"/>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulProcessing"/>
+        <rdfs:comment xml:lang="en">Any processing that is not based upon the explicit consent of the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Security -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Security">
+        <rdfs:label xml:lang="en">Security</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Accountability"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingRule"/>
+        <rdfs:comment xml:lang="en">Article 30.1
+
+The controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risks represented by the processing and the nature of the personal data to be protected, having regard to the state of the art and the costs of their implementation.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#LawfulTransfer -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#LawfulTransfer">
+        <rdfs:label xml:lang="en">LawfulTransfer</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.uni.lu/dataprotection#hasRecipient"/>
+                                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#NonEURecipient"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.uni.lu/dataprotection#transferHasRequirement"/>
+                                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#TransferRule"/>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.uni.lu/dataprotection#hasRecipient"/>
+                        <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#EURecipient"/>
+                    </Restriction>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataTransfer"/>
+        <rdfs:comment xml:lang="en">Article 40
+
+Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation may only take place if, subject to the other provisions of this Regulation, the conditions laid down in Chapter V are complied with by the controller and processor, including for onward transfers of personal data from the third country or an international organisation to another third country or to another international organisation.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Measures -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Measures">
+        <rdfs:label xml:lang="en">Measures</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Security"/>
+        <rdfs:comment xml:lang="en">The means by which the controller and the processor tries to avoid data breaches.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#DataMinimization -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#DataMinimization">
+        <rdfs:label xml:lang="en">DataMinimization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Purpose"/>
+        <rdfs:comment xml:lang="en">Personal data should be collected only when, and to the extent to which, a given purpose cannot be reached without using anonymous or statistical data or data that do not allow identification of the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Processor -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Processor">
+        <rdfs:label xml:lang="en">Processor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Person"/>
+        <rdfs:comment xml:lang="en">Article 4(6)
+
+A natural or legal person, public authority, agency or any other body which processes personal data on behalf of the controller.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#AppropriateSafeguards -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#AppropriateSafeguards">
+        <rdfs:label xml:lang="en">AppropriateSafeguards</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#TransferRule"/>
+        <rdfs:comment xml:lang="en">Article 42.1
+
+Where the Commission has taken no decision pursuant to Article 41, a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has adduced appropriate safeguards with respect to the protection of personal data in a legally binding instrument.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#TechnicalMeasures -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#TechnicalMeasures">
+        <rdfs:label xml:lang="en">TechnicalMeasures</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Measures"/>
+        <rdfs:comment xml:lang="en">Security measures introduced in the technical infrastructure of the controller or processor, such as secure protocols, access control systems or encryption.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Controller -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Controller">
+        <rdfs:label xml:lang="en">Controller</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Person"/>
+        <rdfs:comment xml:lang="en">Article 4(5)
+
+the natural or legal person, public authority, agency or any other body which alone or jointly with others determines the purposes, conditions and means of the processing of personal data; where the purposes, conditions and means of processing are determined by Union law or Member State law, the controller or the specific criteria for his nomination may be designated by Union law or by Member State law.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RightToRectification -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#RightToRectification">
+        <rdfs:label xml:lang="en">RightToRectification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Accuracy"/>
+        <rdfs:comment xml:lang="en">Article 16
+
+The data subject shall have the right to obtain from the controller the rectification of personal data relating to them which are inaccurate. The data subject shall have the right to obtain completion of incomplete personal data, including by way of supplementing a corrective statement.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Retention -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Retention">
+        <rdfs:label xml:lang="en">Retention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataMinimization"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataQuality"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.3.3
+
+Article 6 (1) (e) of the Data Protection Directive and, likewise, Article 5 (e) of Convention 108 require Member States to ensure that personal data are &quot;kept in a form which permits identification of data subjects for no longer than is necessary for the The key principles of European data protection law purposes for which the data were collected or for which they are further processed.&quot; The data must therefore be erased when those purposes have been served.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Certification -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Certification">
+        <rdfs:label xml:lang="en">Certification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Trust"/>
+        <rdfs:comment xml:lang="en">Article 39.1
+
+The Member States and the Commission shall encourage, in particular at European level, the establishment of data protection certification mechanisms and of data protection seals and marks, allowing data subjects to quickly assess the level of data protection provided by controllers and processors. The data protection certifications mechanisms shall contribute to the proper application of this Regulation, taking account of the specific features of the various sectors and different processing operations.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#TransparentInformation -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#TransparentInformation">
+        <rdfs:label xml:lang="en">TransparentInformation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Trust"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#RightToInformation"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingRule"/>
+        <rdfs:comment xml:lang="en">Article 11
+
+The controller shall have transparent and easily accessible policies with regard to the processing of personal data and for the exercise of data subjects&apos; rights.
+
+The controller shall provide any information and any communication relating to the processing of personal data to the data subject in an intelligible form, using clear and plain language, adapted to the data subject, in particular for any information addressed specifically to a child.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#PrivacyByDesign -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#PrivacyByDesign">
+        <rdfs:label xml:lang="en">PrivacyByDesign</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Trust"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Security"/>
+        <rdfs:comment xml:lang="en">Article 23.1
+
+Having regard to the state of the art and the cost of implementation, the controller shall, both at the time of the determination of the means for processing and at the time of the processing itself, implement appropriate technical and organisational measures and procedures in such a way that the processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RightOfAccess -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#RightOfAccess">
+        <rdfs:label xml:lang="en">RightOfAccess</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Transparency"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+        <rdfs:comment xml:lang="en">Article 15.1
+
+The data subject shall have the right to obtain from the controller at any time, on request, confirmation as to whether or not personal data relating to the data subject are being processed. Where such personal data are being processed, the controller shall provide the following information:
+(a) the purposes of the processing;
+(b) the categories of personal data concerned;
+(c) the recipients or categories of recipients to whom the personal data are to be or have been disclosed, in particular to recipients in third countries;
+(d) the period for which the personal data will be stored;
+(e) the existence of the right to request from the controller rectification or erasure of personal data concerning the data subject or to object to the processing of such personal data;
+(f) the right to lodge a complaint to the supervisory authority and the contact details of the supervisory authority;
+(g) communication of the personal data undergoing processing and of any available information as to their source;
+(h) the significance and envisaged consequences of such processing, at least in the case of measures referred to in Article 20.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#PublicInterestProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#PublicInterestProcessing">
+        <rdfs:label xml:lang="en">PublicInterestProcessing</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#requiredByPublicInterest"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#PublicInterest"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulProcessing"/>
+        <rdfs:comment xml:lang="en">Article 6.1(e)
+
+Processing that is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#CodeOfConduct -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#CodeOfConduct">
+        <rdfs:label xml:lang="en">CodeOfConduct</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Compliance"/>
+        <rdfs:comment xml:lang="en">Article 38.1
+
+The Member States, the supervisory authorities and the Commission shall encourage the drawing up of codes of conduct intended to contribute to the proper application of this Regulation, taking account of the specific features of the various data processing sectors, in particular in relation to:
+(a) fair and transparent data processing;
+(b) the collection of data;
+(c) the information of the public and of data subjects;
+(d) requests of data subjects in exercise of their rights;
+(e) information and protection of children;
+(f) transfer of data to third countries or international organisations;
+(g) mechanisms for monitoring and ensuring compliance with the code by the controllers adherent to it;
+(h) out-of-court proceedings and other dispute resolution procedures for resolving disputes between controllers and data subjects with respect to the processing of personal data, without prejudice to the rights of the data subjects pursuant to Articles 73 and 75.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Compliance -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Compliance">
+        <rdfs:label xml:lang="en">Compliance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Accountability"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingRule"/>
+        <rdfs:comment xml:lang="en">Article 5(f)
+
+Personal data must be processed under the responsibility and liability of the controller, who shall ensure and demonstrate for each processing operation the compliance with the provisions of this Regulation.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ProcessingActivity -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ProcessingActivity">
+        <rdfs:label xml:lang="en">ProcessingActivity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:comment>A specific operation which is performed upon personal data or sets of personal data.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#EURecipient -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#EURecipient">
+        <rdfs:label xml:lang="en">EURecipient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Recipient"/>
+        <rdfs:comment xml:lang="en">A recipient located within the European Union, or subject to the Regulation.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ParentConsent -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ParentConsent">
+        <rdfs:label xml:lang="en">ParentConsent</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#consentGrantedBy"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Parent"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#SpecialConsent"/>
+        <rdfs:comment xml:lang="en">Consent to the processing of personal data of a child below the age of 13 years given or authorised by the child&apos;s parent or custodian.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Principle -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Principle">
+        <rdfs:label xml:lang="en">Principle</rdfs:label>
+        <rdfs:comment xml:lang="en">DPH ch. 3
+
+The principles set out in Article 5 of Convention 108 enshrine the essence of European data protection law. They appear also in Article 6 of the Data Protection Directive as the starting point for more detailed provisions in the subsequent articles of the directive. All later data protection legislation at the CoE or EU level must comply with these principles and they must be kept in mind when interpreting such legislation.
+Any exemptions from and restrictions to these key principles may be provided for at national level;107 they must be provided for by law, pursue a legitimate aim and be necessary in a democratic society. All three conditions must be fulfilled.</rdfs:comment>
+        <skos:broadMatch rdf:resource="http://www.estrellaproject.org/lkif-core/norm.owl"/>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#BindingCorporateRules -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#BindingCorporateRules">
+        <rdfs:label xml:lang="en">BindingCorporateRules</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#TransferRule"/>
+        <rdfs:comment xml:lang="en">Article 43.1
+
+A supervisory authority shall in accordance with the consistency mechanism set out in Article 58 approve binding corporate rules, provided that they:
+(a) are legally binding and apply to and are enforced by every member within the controller’s or processor&apos;s group of undertakings, and include their employees;
+(b) expressly confer enforceable rights on data subjects;
+(c) fulfil the requirements laid down in paragraph 2.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ManualProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ManualProcessing">
+        <rdfs:label xml:lang="en">ManualProcessing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingMode"/>
+        <disjointWith rdf:resource="http://www.uni.lu/dataprotection#AutomatedProcessing"/>
+        <rdfs:comment xml:lang="en">Processing that requires human activity.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#PrivacyByDefault -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#PrivacyByDefault">
+        <rdfs:label xml:lang="en">PrivacyByDefault</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Security"/>
+        <rdfs:comment xml:lang="en">Article 23.2
+
+The controller shall implement mechanisms for ensuring that, by default, only those personal data are processed which are necessary for each specific purpose of the processing and are especially not collected or retained beyond the minimum necessary for those purposes, both in terms of the amount of the data and the time of their storage. In particular, those mechanisms shall ensure that by default personal data are not made accessible to an indefinite number of individuals.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Objection -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Objection">
+        <rdfs:label xml:lang="en">Objection</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#implements"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Trust"/>
+            </Restriction>
+        </equivalentClass>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#objectTo"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+            </Restriction>
+        </equivalentClass>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#exerciseRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightToObject"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Action"/>
+        <rdfs:comment xml:lang="en">The data subjects&apos; objection to the processing of personal data, on grounds relating to their particular situation, at any time to the processing of personal data which is based on points (d), (e) and (f) of Article 6(1).</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Accountability -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Accountability">
+        <rdfs:label xml:lang="en">Accountability</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Principle"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.5
+
+The Organisation for Economic Co-operation and Development (OECD) adopted privacy guidelines in 2013 that highlighted that controllers have an important role in making data protection work in practice. The guidelines develop an accountability principle to the effect that &quot;a data controller should be accountable for complying with measures which give effect to the [material] principles stated above.&quot;</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#LawfulnessRule -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#LawfulnessRule">
+        <rdfs:label xml:lang="en">LawfulnessRule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulnessPrinciple"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingRule"/>
+        <rdfs:comment xml:lang="en">DPH s. 4.1.1
+
+Chapter II of Directive 95/46, entitled ‘General rules on the lawfulness of the processing of personal data’, provides that, subject to the exceptions permitted under Article 13, all processing of personal data must comply, first, with the principles relating to data quality set out in Article 6 of the Data Protection Directive and, secondly, with one of the criteria for making data processing legitimate, listed in Article 7. This explains the cases which legitimise the processing of non-sensitive personal data.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ChildDataSubject -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ChildDataSubject">
+        <rdfs:label xml:lang="en">ChildDataSubject</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataSubject"/>
+        <rdfs:comment xml:lang="en">A data subject under the age of 13 years.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Transparency -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Transparency">
+        <rdfs:label xml:lang="en">Transparency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Fairness"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.4.1
+
+This principle establishes an obligation for the controller to keep the data subjects informed about how their data are being used.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ProcessingMode -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ProcessingMode">
+        <rdfs:label xml:lang="en">ProcessingMode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:comment xml:lang="en">The specific way in which the processing is performed.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#DataSubjectRight -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#DataSubjectRight">
+        <rdfs:label xml:lang="en">DataSubjectRight</rdfs:label>
+        <rdfs:comment xml:lang="en">DPH s. 5.1
+
+The effectiveness of legal rules in general and data subjects’ rights in particular, depends to a considerable extent on the existence of appropriate mechanisms to enforce them. In European data protection law, the data subject must be empowered by national law to protect his or her data. Independent supervisory authorities must also be established by national law to assist the data subjects in exercising their rights and to supervise the processing of personal data. Additionally, the right to an effective remedy, as guaranteed under the ECHR and the Charter, demands that judicial remedies be available to every person.</rdfs:comment>
+        <skos:closeMatch rdf:resource="http://www.estrellaproject.org/lkif-core/norm.owl#Right"/>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Parent -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Parent">
+        <rdfs:label xml:lang="en">Parent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Person"/>
+        <rdfs:comment xml:lang="en">The parent or custodian of a child below the age of 13 years.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RightToErasure -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#RightToErasure">
+        <rdfs:label xml:lang="en">RightToErasure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Retention"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+        <rdfs:comment xml:lang="en">Article 17.1
+
+The data subject shall have the right to obtain from the controller the erasure of personal data relating to them and the abstention from further dissemination of such data, especially in relation to personal data which are made available by the data subject while he or she was a child, where one of the following grounds applies:
+(a) the data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;
+(b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or when the storage period consented to has expired, and where there is no other legal ground for the processing of the data;
+(c) the data subject objects to the processing of personal data pursuant to Article 19;
+(d) the processing of the data does not comply with this Regulation for other reasons.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Person -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Person">
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <disjointWith rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+        <rdfs:comment xml:lang="en">An individual or organization involved in the processing of personal data.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Consent -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Consent">
+        <rdfs:label xml:lang="en">Consent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Trust"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LegalJustification"/>
+        <rdfs:comment xml:lang="en">Article 7
+
+The controller shall bear the burden of proof for the data subject&apos;s consent to the processing of their personal data for specified purposes.
+
+If the data subject&apos;s consent is to be given in the context of a written declaration which also concerns another matter, the requirement to give consent must be presented distinguishable in its appearance from this other matter.
+
+The data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal.
+
+Consent shall not provide a legal basis for the processing, where there is a significant imbalance between the position of the data subject and the controller.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#LegitimateInterest -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#LegitimateInterest">
+        <rdfs:label xml:lang="en">LegitimateInterest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LegalJustification"/>
+        <rdfs:comment xml:lang="en">Objective that a subject can legally pursue.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RightToInformation -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#RightToInformation">
+        <rdfs:label xml:lang="en">RightToInformation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Transparency"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+        <rdfs:comment xml:lang="en">Article 14.1
+
+Where personal data relating to a data subject are collected, the controller shall provide the data subject with at least the following information:
+(a) the identity and the contact details of the controller and, if any, of the controller&apos;s representative and of the data protection officer;
+(b) the purposes of the processing for which the personal data are intended, including the contract terms and general conditions where the processing is based on point (b) of Article 6(1) and the legitimate interests pursued by the controller where the processing is based on point (f) of Article 6(1);
+(c) the period for which the personal data will be stored;
+(d) the existence of the right to request from the controller access to and rectification or erasure of the personal data concerning the data subject or to object to the processing of such personal data;
+(e) the right to lodge a complaint to the supervisory authority and the contact details of the supervisory authority;
+(f) the recipients or categories of recipients of the personal data;
+(g) where applicable, that the controller intends to transfer to a third country or international organisation and on the level of protection afforded by that third country or international organisation by reference to an adequacy decision by the Commission;
+(h) any further information necessary to guarantee fair processing in respect of the data subject, having regard to the specific circumstances in which the personal data are collected.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Rule -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Rule">
+        <rdfs:label xml:lang="en">Rule</rdfs:label>
+        <rdfs:comment xml:lang="en">Requirement that the controller or processor must fulfill to be compliant with the Regulation.</rdfs:comment>
+        <skos:broadMatch rdf:resource="http://www.estrellaproject.org/lkif-core/norm.owl#Obligation"/>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#DataProtectionOfficer -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#DataProtectionOfficer">
+        <rdfs:label xml:lang="en">DataProtectionOfficer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Compliance"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Person"/>
+        <rdfs:comment xml:lang="en">Article 37.1
+
+The controller or the processor shall entrust the data protection officer at least with the following tasks:
+(a) to inform and advise the controller or the processor of their obligations pursuant to this Regulation and to document this activity and the responses received;
+(b) to monitor the implementation and application of the policies of the controller or processor in relation to the protection of personal data, including the assignment of responsibilities, the training of staff involved in the processing operations, and the related audits;
+(c) to monitor the implementation and application of this Regulation, in particular as to the requirements related to data protection by design, data protection by default and data security and to the information of data subjects and their requests in exercising their rights under this Regulation;
+(d) to ensure that the documentation referred to in Article 28 is maintained;
+(e) to monitor the documentation, notification and communication of personal data breaches pursuant to Articles 31 and 32;
+(f) to monitor the performance of the data protection impact assessment by the controller or processor and the application for prior authorisation or prior consultation, if required pursuant Articles 33 and 34;
+(g) to monitor the response to requests from the supervisory authority, and, within the sphere of the data protection officer&apos;s competence, co-operating with the supervisory authority at the latter&apos;s request or on the data protection officer&apos;s own initiative;
+(h) to act as the contact point for the supervisory authority on issues related to the processing and consult with the supervisory authority, if appropriate, on his/her own initiative.</rdfs:comment>
+        <skos:broadMatch rdf:resource="http://www.estrellaproject.org/lkif-core/legal-action.owl#Legal_Person"/>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Purpose -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Purpose">
+        <rdfs:label xml:lang="en">Purpose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Principle"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.2
+
+In essence, the principle of purpose specification and limitation means that the legitimacy of processing personal data will depend on the purpose of the processing. The purpose must have been specified and made manifest by the controller before the processing of data starts. Under EU law, this must be done either by declaration, in other words by notification, to the appropriate supervisory authority or, at the least, by internal documentation which must be made available by the controller for inspection by the supervisory authorities and access by the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RightToNoProfiling -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#RightToNoProfiling">
+        <rdfs:label xml:lang="en">RightToNoProfiling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Purpose"/>
+        <rdfs:comment xml:lang="en">Article 20.1
+
+Every natural person shall have the right not to be subject to a measure which produces legal effects concerning this natural person or significantly affects this natural person, and which is based solely on automated processing intended to evaluate certain personal aspects relating to this natural person or to analyse or predict in particular the natural person&apos;s performance at work, economic situation, location, health, personal preferences, reliability or behaviour.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#DataQuality -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#DataQuality">
+        <rdfs:label xml:lang="en">DataQuality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Principle"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.3
+
+The principles of data quality must be implemented by the controller in all processing operations.
+The principle of limited retention of data makes it necessary to delete data as soon as they are no longer needed for the purposes for which they were collected.
+Exemptions from the principle of limited retention must be set out by law and need special safeguards for the protection of data subjects.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#LawfulnessPrinciple -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#LawfulnessPrinciple">
+        <rdfs:label xml:lang="en">LawfulnessPrinciple</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#ECHRLawfulness"/>
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#CharterLawfulness"/>
+                </oneOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Principle"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.1.1
+
+The processing of personal data may constitute an interference with the right to respect for private life of the data subject. The right to respect for private life is, however, not an absolute right but must be balanced against and reconciled with other legitimate interests, be they of other persons (private interests) or of society as a whole (public interests).</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Justification -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Justification">
+        <rdfs:label xml:lang="en">Justification</rdfs:label>
+        <disjointWith rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+        <rdfs:comment xml:lang="en">Reason to perform the processing, such as the interest of the data controller.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#DataSubject -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#DataSubject">
+        <rdfs:label xml:lang="en">DataSubject</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Person"/>
+        <rdfs:comment xml:lang="en">Article 4(1)
+
+An identified natural person or a natural person who can be identified, directly or indirectly, by means reasonably likely to be used by the controller or by any other natural or legal person, in particular by reference to an identification number, location data, online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that person.</rdfs:comment>
+        <skos:closeMatch rdf:resource="http://www.estrellaproject.org/lkif-core/legal-action.owl#Natural_Person"/>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Recipient -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Recipient">
+        <rdfs:label xml:lang="en">Recipient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Controller"/>
+        <rdfs:comment xml:lang="en">Article 4(7)
+
+A natural or legal person, public authority, agency or any other body to which the personal data are disclosed</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#AdequacyDecision -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#AdequacyDecision">
+        <rdfs:label xml:lang="en">AdequacyDecision</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#TransferRule"/>
+        <rdfs:comment xml:lang="en">Article 41.1
+
+A transfer may take place where the Commission has decided that the third country, or a territory or a processing sector within that third country, or the international organisation in question ensures an adequate level of protection. Such transfer shall not require any further authorisation.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ConsensualProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ConsensualProcessing">
+        <rdfs:label xml:lang="en">ConsensualProcessing</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Class>
+                                <complementOf>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingAppliesTo"/>
+                                        <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#ChildData"/>
+                                    </Restriction>
+                                </complementOf>
+                            </Class>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingAppliesTo"/>
+                                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                                <onClass rdf:resource="http://www.uni.lu/dataprotection#SpecialConsent"/>
+                                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Class>
+                                <complementOf>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingAppliesTo"/>
+                                        <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+                                    </Restriction>
+                                </complementOf>
+                            </Class>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                                <onClass rdf:resource="http://www.uni.lu/dataprotection#Consent"/>
+                                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingAppliesTo"/>
+                                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#ChildData"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                                <onClass rdf:resource="http://www.uni.lu/dataprotection#ParentConsent"/>
+                                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulProcessing"/>
+        <rdfs:comment xml:lang="en">Article 6.1(a)
+
+Processing of personal data to which the data subject has given consent for one or more specific purposes.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#DataBreach -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#DataBreach">
+        <rdfs:label xml:lang="en">DataBreach</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Trust"/>
+        <rdfs:comment xml:lang="en">A violation of the security measures of the data controller that exposes personal data to unintended subjects.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Documentation -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Documentation">
+        <rdfs:label xml:lang="en">Documentation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Transparency"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingRule"/>
+        <rdfs:comment xml:lang="en">Article 28.1
+
+Each controller and processor and, if any, the controller&apos;s representative, shall maintain documentation of all processing operations under its responsibility.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ProcessingRule -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ProcessingRule">
+        <rdfs:label xml:lang="en">ProcessingRule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Rule"/>
+        <rdfs:comment xml:lang="en">DPH ch. 4
+
+Principles are necessarily of a general nature. Their application to concrete situations leaves a certain margin of interpretation and choice of means. Under CoE law, it is left to the Parties to Convention 108 to clarify this margin of interpretation in their domestic law. The situation in EU law is different: for the establishment of data protection in the internal market, it was deemed necessary to have more detailed rules already at the EU level in order to harmonise the level of data protection of the national laws of the Member States. The Data Protection Directive establishes, under the principles set out in its Article 6, a layer of detailed rules which must be faithfully implemented in national law. The following remarks on detailed data protection rules at the European level deal, therefore, predominantly with EU law.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ImpactAssessment -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ImpactAssessment">
+        <rdfs:label xml:lang="en">ImpactAssessment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Accountability"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingRule"/>
+        <rdfs:comment xml:lang="en">Article 33.1
+
+Where processing operations present specific risks to the rights and freedoms of data subjects by virtue of their nature, their scope or their purposes, the controller or the processor acting on the controller&apos;s behalf shall carry out an assessment of the impact of the envisaged processing operations on the protection of personal data.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Rectification -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Rectification">
+        <rdfs:label xml:lang="en">Rectification</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#implements"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Accuracy"/>
+            </Restriction>
+        </equivalentClass>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#exerciseRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightToRectification"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Action"/>
+        <rdfs:comment xml:lang="en">The request to obtain from the controller the rectification of personal data relating to them which are inaccurate.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#SupervisoryAuthority -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#SupervisoryAuthority">
+        <rdfs:label xml:lang="en">SupervisoryAuthority</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Person"/>
+        <rdfs:comment xml:lang="en">Article 4(19)
+
+A public authority which is established by a Member State in accordance with Article 46.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#LegitimateInterestProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#LegitimateInterestProcessing">
+        <rdfs:label xml:lang="en">LegitimateInterestProcessing</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#requiredByLegitimateInterest"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#LegitimateInterest"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulProcessing"/>
+        <rdfs:comment xml:lang="en">Article 6.1(f)
+
+Processing that is necessary for the purposes of the legitimate interests pursued by a controller, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child. This shall not apply to processing carried out by public authorities in the performance of their tasks.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#LegalObligation -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#LegalObligation">
+        <rdfs:label xml:lang="en">LegalObligation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LegalJustification"/>
+        <rdfs:comment xml:lang="en">Behaviour that is legally required of a subject by means of a contract or law.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ChildData -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#ChildData">
+        <rdfs:label xml:lang="en">ChildData</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:comment xml:lang="en">Personal data pertaining to a data subject under the age of 13 years.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#DataTransfer -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#DataTransfer">
+        <rdfs:label xml:lang="en">DataTransfer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingActivity"/>
+        <rdfs:comment xml:lang="en">Article 4(3)
+
+Disclosure of personal data by transmission, dissemination or otherwise
+making available.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Fairness -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Fairness">
+        <rdfs:label xml:lang="en">Fairness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Principle"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.4
+
+The principle of fair processing governs primarily the relationship between the controller and the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#PersonalData -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#PersonalData">
+        <rdfs:label xml:lang="en">PersonalData</rdfs:label>
+        <rdfs:comment xml:lang="en">Article 4(2)
+
+Any information relating to a data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#BreachNotification -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#BreachNotification">
+        <rdfs:label xml:lang="en">BreachNotification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Security"/>
+        <rdfs:comment xml:lang="en">Article 31.1
+
+In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 24 hours after having become aware of it, notify the personal data breach to the supervisory authority. The notification to the supervisory authority shall be accompanied by a reasoned justification in cases where it is not made within 24 hours.
+
+Article 32.1
+
+When the personal data breach is likely to adversely affect the protection of the personal data or privacy of the data subject, the controller shall, after the notification referred to in Article 31, communicate the personal data breach to the data subject without undue delay.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#PublicInterest -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#PublicInterest">
+        <rdfs:label xml:lang="en">PublicInterest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LegalJustification"/>
+        <rdfs:comment xml:lang="en">An interest beneficial to a general community of undetermined individuals.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#SensitiveData -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#SensitiveData">
+        <rdfs:label xml:lang="en">SensitiveData</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#ChildData"/>
+                    <Class>
+                        <oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#BeliefData"/>
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#PoliticalData"/>
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#SexualData"/>
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#ReligionData"/>
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#GeneticData"/>
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#CriminalData"/>
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#TradeUnionData"/>
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#RacialData"/>
+                            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#HealthcareData"/>
+                        </oneOf>
+                    </Class>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#PersonalData"/>
+        <rdfs:comment xml:lang="en">Article 9.1
+
+Personal data revealing race or ethnic origin, political opinions, religion or beliefs, trade-union membership, and the processing of genetic data or data concerning health or sex life or criminal convictions or related security measures.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#AutomatedProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#AutomatedProcessing">
+        <rdfs:label xml:lang="en">AutomatedProcessing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#ProcessingMode"/>
+        <rdfs:comment xml:lang="en">Processing that does not require human activity.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#LawfulProcessing -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#LawfulProcessing">
+        <rdfs:label xml:lang="en">LawfulProcessing</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#ContractualProcessing"/>
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#RequiredProcessing"/>
+                    <rdf:Description rdf:about="http://www.uni.lu/dataprotection#ConsensualProcessing"/>
+                </unionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingGrantsRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightToPortability"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.uni.lu/dataprotection#isObjected"/>
+                        <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Objection"/>
+                    </Restriction>
+                </complementOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Compliance"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingGrantsRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightToNoProfiling"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingGrantsRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightToRectification"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Documentation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#ImpactAssessment"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingGrantsRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Access"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#Security"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#LegalJustification"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingGrantsRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightToObject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingGrantsRight"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#RightToErasure"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#processingHasRequirement"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#TransparentInformation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Article 6.1
+
+Processing of personal data shall be lawful only if and to the extent that at least one of the following applies:
+(a) the data subject has given consent to the processing of their personal data for one or more specific purposes;
+(b) processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;
+(c) processing is necessary for compliance with a legal obligation to which the controller is subject;
+(d) processing is necessary in order to protect the vital interests of the data subject;
+(e) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;
+(f) processing is necessary for the purposes of the legitimate interests pursued by a controller, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child. This shall not apply to processing carried out by public authorities in the performance of their tasks.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#LegalJustification -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#LegalJustification">
+        <rdfs:label xml:lang="en">LegalJustification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#LawfulnessRule"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Justification"/>
+        <rdfs:comment xml:lang="en">Reason to perform the processing which is based on legal grounds, such as an legitimate interest of the data controller.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RightToPortability -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#RightToPortability">
+        <rdfs:label xml:lang="en">RightToPortability</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Trust"/>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataSubjectRight"/>
+        <rdfs:comment xml:lang="en">Article 18
+
+The data subject shall have the right, where personal data are processed by electronic means and in a structured and commonly used format, to obtain from the controller a copy of data undergoing processing in an electronic and structured format which is commonly used and allows for further use by the data subject.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#SpecialConsent -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#SpecialConsent">
+        <rdfs:label xml:lang="en">SpecialConsent</rdfs:label>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.uni.lu/dataprotection#specialConsentAppliesTo"/>
+                <someValuesFrom rdf:resource="http://www.uni.lu/dataprotection#DataProcessing"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#Consent"/>
+        <rdfs:comment xml:lang="en">Consent given under special circumstances, such as to the processing of personal data of a child or to the processing of sensitive data.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#Accuracy -->
+
+    <Class rdf:about="http://www.uni.lu/dataprotection#Accuracy">
+        <rdfs:label xml:lang="en">Accuracy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.uni.lu/dataprotection#DataQuality"/>
+        <rdfs:comment xml:lang="en">DPH s. 3.3.2
+
+A controller holding personal information shall not use that information without taking steps to ensure with reasonable certainty that the data are accurate and up to date.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ReligionData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#ReligionData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">ReligionData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#EUTransfer -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#EUTransfer">
+        <rdfs:label xml:lang="en">EUTransfer</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#TradeUnionData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#TradeUnionData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">TradeUnionData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#EURecipient -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#EURecipient">
+        <rdfs:label xml:lang="en">EURecipient</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#RacialData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#RacialData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">RacialData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#NonEURecipient -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#NonEURecipient">
+        <rdfs:label xml:lang="en">NonEURecipient</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#SexualData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#SexualData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">SexualData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#ECHRLawfulness -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#ECHRLawfulness">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#LawfulnessPrinciple"/>
+        <rdfs:label xml:lang="en">ECHRLawfulness</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#NonEUTransfer -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#NonEUTransfer">
+        <rdfs:label xml:lang="en">NonEUTransfer</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#HealthcareData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#HealthcareData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">HealthcareData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#BeliefData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#BeliefData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">BeliefData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#CharterLawfulness -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#CharterLawfulness">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#LawfulnessPrinciple"/>
+        <rdfs:label xml:lang="en">CharterLawfulness</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#GeneticData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#GeneticData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">GeneticData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#PoliticalData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#PoliticalData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">PoliticalData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#CriminalData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#CriminalData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">CriminalData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.uni.lu/dataprotection#BiometricData -->
+
+    <NamedIndividual rdf:about="http://www.uni.lu/dataprotection#BiometricData">
+        <rdf:type rdf:resource="http://www.uni.lu/dataprotection#SensitiveData"/>
+        <rdfs:label xml:lang="en">BiometricData</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_b79dea85_da38_4371_96dc_30a639826a63">
+        <rdfs:label xml:lang="en">broadMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_c5686ee0_cc44_43c5_9a6a_6ab8920fc3ec">
+        <rdfs:label xml:lang="en">closeMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_3ed8c3e4_2c43_433d_9f65_50e97949d2d2">
+        <rdfs:label xml:lang="en">broadMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;contributor">
+        <rdfs:label xml:lang="en">Contributor</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:comment xml:lang="en">An entity responsible for making contributions to the resource.</rdfs:comment>
+        <terms:description xml:lang="en">Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity.</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#contributor-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&xsd;OWLDatatypeImpl_7c27e6b5_f4d1_4113_9831_bf9431834ff0">
+        <rdfs:label xml:lang="en">date</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_f8098115_1cfa_4ef6_836a_aafff9252f73">
+        <rdfs:label xml:lang="en">issued</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;title">
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <rdfs:comment xml:lang="en">A name given to the resource.</rdfs:comment>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#title-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_1fa18f57_a790_40e8_aff1_a6c6867fce1d">
+        <rdfs:label xml:lang="en">closeMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;coverage">
+        <rdfs:label xml:lang="en">Coverage</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <terms:description xml:lang="en">Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.</terms:description>
+        <rdfs:comment xml:lang="en">The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.</rdfs:comment>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#coverage-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_6484f224_f4f8_4a07_a482_826fe83cbd44">
+        <rdfs:label xml:lang="en">hasVersion</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_e74ebdb2_a910_41a0_969c_e935d0ffc343">
+        <rdfs:label xml:lang="en">broadMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;description">
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
+        <terms:description xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#description-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_fa87fc96_35fe_461f_81e5_078e57b36db0">
+        <rdfs:label xml:lang="en">note</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;creator">
+        <rdfs:label xml:lang="en">Creator</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:comment xml:lang="en">An entity primarily responsible for making the resource.</rdfs:comment>
+        <terms:description xml:lang="en">Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#creator-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_094d13a0_a651_46ab_b8a7_47dcb7dfa1bf">
+        <rdfs:label xml:lang="en">title</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_711a0657_ad17_4cc2_a4a4_7ab3e31d9fe9">
+        <rdfs:label xml:lang="en">closeMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_ae522acd_b4c3_4dff_bb8e_9fb5565e241b">
+        <rdfs:label xml:lang="en">exactMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_21550cd8_2fc0_4dfb_b77d_ff4ba1e9429d">
+        <rdfs:label xml:lang="en">hasVersion</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;publisher">
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
+        <terms:description xml:lang="en">Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#publisher-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&xsd;OWLDatatypeImpl_9008e7cb_da51_4d30_b7fb_63978d2d9e63">
+        <rdfs:label xml:lang="en">date</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_acd6846e_699d_4935_8f24_a67c94c61ee2">
+        <rdfs:label xml:lang="en">description</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;date">
+        <rdfs:label xml:lang="en">Date</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <rdfs:comment xml:lang="en">A point or period of time associated with an event in the lifecycle of the resource.</rdfs:comment>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <terms:description xml:lang="en">Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#date-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;subject">
+        <rdfs:label xml:lang="en">Subject</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2012-06-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:comment xml:lang="en">The topic of the resource.</rdfs:comment>
+        <terms:description xml:lang="en">Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#subject-007"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_40db4dea_1f00_4cdc_8c2c_e0b261b4b818">
+        <rdfs:label xml:lang="en">exactMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_f0470b65_d715_4fa8_a03f_3e48d32d3a26">
+        <rdfs:label xml:lang="en">broaderTransitive</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;format">
+        <rdfs:label xml:lang="en">Format</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <terms:description xml:lang="en">Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME].</terms:description>
+        <rdfs:comment xml:lang="en">The file format, physical medium, or dimensions of the resource.</rdfs:comment>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#format-007"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_38110948_dcd5_49af_922f_30825fe9be37">
+        <rdfs:label xml:lang="en">broaderTransitive</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_d9c73075_acd8_4732_bff4_91367fea6a54">
+        <rdfs:label xml:lang="en">modified</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;relation">
+        <rdfs:label xml:lang="en">Relation</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <rdfs:comment xml:lang="en">A related resource.</rdfs:comment>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <terms:description xml:lang="en">Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. </terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#relation-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;source">
+        <rdfs:label xml:lang="en">Source</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <rdfs:comment xml:lang="en">A related resource from which the described resource is derived.</rdfs:comment>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <terms:description xml:lang="en">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#source-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;language">
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <rdfs:comment xml:lang="en">A language of the resource.</rdfs:comment>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <terms:description xml:lang="en">Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].</terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#language-007"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:seeAlso rdf:resource="http://www.ietf.org/rfc/rfc4646.txt"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_e64a6883_ac97_40d6_b82d_8f68134fe756">
+        <rdfs:label xml:lang="en">broadMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_f7bc73c6_9706_48d7_b53b_bc253d6d58b1">
+        <rdfs:label xml:lang="en">description</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/">
+        <terms:modified rdf:datatype="&xsd;date">2012-06-14</terms:modified>
+        <terms:title xml:lang="en">Dublin Core Metadata Element Set, Version 1.1</terms:title>
+        <terms:publisher rdf:resource="http://purl.org/dc/aboutdcmi#DCMI"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;type">
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <terms:description xml:lang="en">Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</terms:description>
+        <rdfs:comment xml:lang="en">The nature or genre of the resource.</rdfs:comment>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#type-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;identifier">
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
+        <terms:issued rdf:datatype="&xsd;date">1999-07-02</terms:issued>
+        <terms:modified rdf:datatype="&xsd;date">2008-01-14</terms:modified>
+        <skos:note xml:lang="en">A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document &quot;DCMI Metadata Terms&quot; (http://dublincore.org/documents/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
+        <terms:description xml:lang="en">Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. </terms:description>
+        <terms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#identifier-006"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_7a410669_92a6_4856_bdac_587b87b50592">
+        <rdfs:label xml:lang="en">exactMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_76987ca1_c69f_4650_88b1_b285af3b2c38">
+        <rdfs:label xml:lang="en">modified</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_516a3db6_58db_47e7_8141_323dd51a05d0">
+        <rdfs:label xml:lang="en">broadMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_87e29aff_89c9_4baa_91fc_88d476659b44">
+        <rdfs:label xml:lang="en">issued</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_87608b6e_854c_44fc_9546_1d090053b511">
+        <rdfs:label xml:lang="en">broaderTransitive</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_08c1407d_ec6c_4b17_8edf_4abb17f039cb">
+        <rdfs:label xml:lang="en">closeMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_23de5b25_d99d_4053_8491_90ac4f1b01f9">
+        <rdfs:label xml:lang="en">note</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_5da093f8_3d86_4481_b13f_bfb4f4ca603e">
+        <rdfs:label xml:lang="en">closeMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_d5664569_69fe_4586_b6af_7b6c11c4e26a">
+        <rdfs:label xml:lang="en">broaderTransitive</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_2890e030_22b0_4257_9668_d20f259a369b">
+        <rdfs:label xml:lang="en">exactMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_5e0543e5_f52b_4e59_bc14_3abe0452b009">
+        <rdfs:label xml:lang="en">publisher</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_80ac4966_b94b_447e_9a9f_4dbff877fd89">
+        <rdfs:label xml:lang="en">closeMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_242990ac_580d_4bd6_a814_1d136830b4e3">
+        <rdfs:label xml:lang="en">title</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&terms;OWLAnnotationPropertyImpl_417511b0_2394_41dd_a770_4bbd6d5b9d58">
+        <rdfs:label xml:lang="en">publisher</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_b8cc2e2d_f9ef_40ef_9107_4b247d7787b8">
+        <rdfs:label xml:lang="en">broadMatch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&skos;OWLAnnotationPropertyImpl_3617d7e2_276e_4ead_8ab6_765572cf6007">
+        <rdfs:label xml:lang="en">note</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#AppropriateSafeguards"/>
+            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#BindingCorporateRules"/>
+            <rdf:Description rdf:about="http://www.uni.lu/dataprotection#AdequacyDecision"/>
+        </members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->

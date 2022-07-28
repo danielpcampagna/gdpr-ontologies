@@ -1,0 +1,1 @@
+.venv/bin/python3 -m pylode onto/bartolini2015b.fixed.owl -o docs/bartolini2015b.html

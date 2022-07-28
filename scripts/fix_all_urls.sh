@@ -1,0 +1,1 @@
+.venv/bin/python3 scripts/fix_url.py onto/bartolini2015b.owl  -m scripts/bartolini.map.csv -o onto/bartolini2015b.fixed.owl
